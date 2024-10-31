@@ -67,5 +67,100 @@
     <br>
         Moneda: Bolivar venezuelan </small></h3>
 
+
+
+
+<form>
+    <label for="nume">Nume:</label>
+    <input type="text" id="nume" nume="nume">
+    <label for="prenume">Prenume:</label>
+    <input type="text" id="prenume" nume="prenume">
+    <label for="varsta">Varsta:</label>
+    <input type="date">
+    <br>
+    <input type="color">
+    <br>
+    <input type="date">
+    <br>
+    <input type="range" min="0" max="150" step="2">
+    <br>
+    <input type="time">
+    <br>
+    <input type="month">
+    <br>
+    <input type="day">
+    <br>
+    <input type="week">
+    <br>
+    Cauta: <input type="search"> 
+    <br>
+
+<!-- checkboxes -->
+    <input type="checkbox" name="fructe" value="Mere"> Mere <br/>
+    <input type="checkbox" name="fructe" value="Struguri"> Struguri <br/>
+    <input type="checkbox" name="fructe" value="Mango"> Mango <br/>
+
+<!-- radio button -->
+    Sex: </br>
+    <input type="radio" name="sex" value="Feminin"> Feminin <br>
+    <input type="radio" name="sex" value="Masculin"> Masculin<br>
+    Oras: </br>
+    <input type="radio" name="oras" value="Iasi" checked> Iasi<br>
+    <input type="radio" name="oras" value="Bucuresti" disabled> Bucuresti<br>
+    <input type="radio" name="oras" value="Timisoara"> Timisoara<br>
+    <input type="radio" name="oras" value="Cluj"> Cluj<br>
+
+<!-- drop-down seleciton -->
+    <br>
+    <select name="selectia1">
+        <option disabled selected>-- Select a cat --</option>
+        <option value="Aaron"> Aaron </option>
+        <option value="Alma"> Alma </option>
+        <option value="Cato"> Cato </option>
+        <option value="Bizu"> Bizu </option>
+
+    </select>
+
+<!-- predefined drp-down selection-->
+ <br>
+ <br>
+ <select size="3">
+    <option>Iasi</option>
+    <option>Chisinau</option>
+    <option>Bucuresti</option>
+    <option>Cluj-Napoca</option>
+    <option>Barlad</option>
+ </select>
+
+<!-- grouped drop-down selection -->
+<br>
+<br>
+<select>
+    <option disabled selected> -- Selectati -- </option>
+    <optgroup label="Nume pisici cu litera A">
+        <option value="Aaron"> Aaron </option>
+        <option value="Alma"> Alma </option>
+    </optgroup>
+    <optgroup label="Nume pisici cu litera C">
+        <option value="Cato"> Cato </option>
+        <option value="Carlo"> Carlo </option>
+    </optgroup>
+</select>
+<br>
+<br>
+</form>
+
+<!-- datalist form -->
+
+<form>
+    <input list="Animale">
+    <datalist id="Animale">
+        <option value="Caine">Caine</option>
+        <option value="Pisica">Pisica</option>
+        <option value="Cangur">Cangur</option>
+    </datalist>
+</form>
+
+
 </body>
 </html>
